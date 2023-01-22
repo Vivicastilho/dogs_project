@@ -23,7 +23,7 @@ As tecnologias utilizadas neste projeto foram:
 
 ##  Projeto
 
-Projeto desenvolvido no curso de React pela Origamid, onde aprende do zero a construir uma rede social, com login e senha, adição de fotos e integração com API.que transmite calma como adicionais ao propósito.
+Projeto desenvolvido no curso de React pela Origamid, onde aprende do zero a construir uma rede social, com login e senha, adição de fotos e integração com API.
 
 
 ---
