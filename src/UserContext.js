@@ -49,6 +49,7 @@ export const UserStorage = ({ children }) => {
       setLoading(false);
     }
   }
+
   React.useEffect(() => {
     async function autoLogin() {
       const token = window.localStorage.getItem('token');
@@ -65,6 +66,8 @@ export const UserStorage = ({ children }) => {
         } finally {
           setLoading(false);
         }
+      } else {
+        setLogin(false);
       }
     }
     autoLogin();

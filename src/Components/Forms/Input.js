@@ -9,6 +9,7 @@ const Input = ({ label, type, name, value, onChange, error, onBlur }) => {
       </label>
       <input
         id={name}
+        name={name}
         className={styles.input}
         type={type}
         value={value}
